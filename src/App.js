@@ -39,8 +39,8 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <form>
+    <div>
+      <form className='user-form'>
         <input value={username} placeholder="Search User" onChange={e => setUsername(e.target.value)} />
         <button type='submit' onClick={handleSubmit}>
           Search

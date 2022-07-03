@@ -38,7 +38,7 @@ const Results = ({ results, repoDetails }) => {
                                 <li>{results.followers} <strong>Followers</strong></li>
                                 <li>{results.following} <strong>Following</strong></li>
                                 <li>{results.public_repos} <strong>Repos</strong></li>
-                                {results.twitter_username === '' ? '' : <li><i class="fa-brands fa-twitter"></i> <a href={`https://twitter.com/${results.twitter_username}`} target="_blank" rel='noreferrer'>{results.twitter_username}</a></li>}
+                                {results.twitter_username === '' ? '' : <li><i className="fa-brands fa-twitter"></i> <a href={`https://twitter.com/${results.twitter_username}`} target="_blank" rel='noreferrer'>{results.twitter_username}</a></li>}
                             </ul>
                             <div id="repos">
                                 <h2>

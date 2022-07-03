@@ -24,7 +24,6 @@ const App = () => {
       url: `${baseUrl}${user}`,
     }).then(res => {
       setResults(res.data);
-      console.log(res.data);
     })
   }
 
@@ -34,7 +33,6 @@ const App = () => {
       url: `${baseUrl}${user}/repos?sort=created`
     }).then(res => {
       setRepoDetails(res.data);
-      console.log(res.data);
     })
   }
 
